@@ -22,7 +22,7 @@
                     colors: {
                         clifford: '#da373d',
                         'bike-primary': '#E76F51',
-                        'bike-primary-bg': 'rgba(231, 111, 81, 0.10)',
+                        'bike-primary-bg': '#E76F51',
                     }
                 }
             }
@@ -158,8 +158,13 @@
     </header>
     <main class="md:container md:mx-auto">
         <!-- fetured bike  -->
-        <section>
-
+        <section class="my-32">
+            <h3 class="text-2xl md:text-5xl font-semibold text-[#0A0826] text-center">Fetured Bikes In This Year</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 my-20 gap-10 pl-12 md:pl-28">
+                <img src="images/others/feature-bike.png" alt="">
+                <img src="images/others/feature-bike.png" alt="">
+                <img src="images/others/feature-bike.png" alt="">
+            </div>
         </section>
         <!-- latest news  -->
         <section class="my-32">
@@ -173,7 +178,7 @@
                       <h2 class="card-title text-2xl text-[#18191F] font-semibold">Ducati XDIAVEL S-73</h2>
                       <p class="text-base text-[#6C6C6C] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
                       <div class="card-actions ">
-                        <button class="btn btn-primary">Read More</button>
+                        <button class="btn bg-bike-primary-bg text-white">Read More</button>
                       </div>
                     </div>
                   </div>
@@ -184,7 +189,7 @@
                       <h2 class="card-title text-2xl text-[#18191F] font-semibold">Motorcycles & Scooters</h2>
                       <p class="text-base text-[#6C6C6C] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
                       <div class="card-actions">
-                        <button class="btn btn-primary">Read More</button>
+                        <button class="btn bg-bike-primary-bg text-white">Read More</button>
                       </div>
                     </div>
                   </div>
@@ -195,7 +200,76 @@
                       <h2 class="card-title text-2xl text-[#18191F] font-semibold">2021 Honda CBR500R</h2>
                       <p class="text-base text-[#6C6C6C] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
                       <div class="card-actions ">
-                        <button class="btn btn-primary">Read More</button>
+                        <button class="btn bg-bike-primary-bg text-white">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section class="my-32">
+            <!-- Happy Clients  -->
+            <h3 class="text-2xl md:text-5xl font-semibold  text-center">Happy <span class=" text-bike-primary-bg">Clients says</span></h3>
+            <div class="my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- clients-1  -->
+                <div class="card  bg-base-100 border-2 border-[#bcbbbb] p-9">
+                    <figure><img src="images/others/user-1.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <p>Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+                        <div class="rating justify-center">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          </div>
+                      <div class="my-5 text-center ">
+                        <h4 class="text-sm font-semibold text-[#23A6F0]">Regina Miles</h4>
+                        <p class="text-sm font-semibold text-[#252B42]">Banker</p>
+                      </div>
+                    </div>
+                  </div>
+                 <!-- clients-2  -->
+                <div class="card  bg-base-100 border-2 border-[#bcbbbb] p-9">
+                    <figure><img src="images/others/user-2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <p>Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+                        <div class="rating justify-center">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          </div>
+                      <div class="my-5 text-center ">
+                        <h4 class="text-sm font-semibold text-[#23A6F0]">Regina Miles</h4>
+                        <p class="text-sm font-semibold text-[#252B42]">Banker</p>
+                      </div>
+                    </div>
+                  </div>
+                <!-- clients-3  -->
+                <div class="card  bg-base-100 border-2 border-[#bcbbbb] p-9">
+                    <figure><img src="images/others/user-3.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <p>Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+                        <div class="rating justify-center">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          </div>
+                      <div class="my-5 text-center ">
+                        <h4 class="text-sm font-semibold text-[#23A6F0]">Regina Miles</h4>
+                        <p class="text-sm font-semibold text-[#252B42]">Banker</p>
                       </div>
                     </div>
                   </div>
